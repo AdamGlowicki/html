@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap&subset=latin-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    font-size: 0;
+    text-align: right;
+    padding: 20px;
+    max-width: 1280px;
+    text-align: right;
+    /* padding-right: 100px; */
+}
+
+nav a {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    margin: 0 20px;
+    transition: 0.2s;
+}
+
+nav a.reservation {
+    font-size: 2.2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #000;
+    color: black;
+}
+
+nav a.reservation:hover {
+    background-color: royalblue;
+    color: #eee;
+    border-color: royalblue;
+}
+
+header {
+    height: 40vh;
+    background-image: url(workshop-2104225_1280.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 40%);
+}
+
+main {
+    max-width: 1280px;
+    margin: 5vh auto;
+}
+
+main p.description {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px;
+    line-height: 180%;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33%;
+}
+
+main div.img {
+    height: 200px;
+    background-color: royalblue;
+    margin: 20px 30px;
+}
+
+main h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}

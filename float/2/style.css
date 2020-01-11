@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    height: 100px;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    margin: 20px;
+    color: #fff;
+    background-color: royalblue;
+}
